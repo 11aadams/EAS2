@@ -1,0 +1,114 @@
+.grid-even-columns-c {
+    display: grid;
+    gap: 1rem;
+    border-style: ;
+    border-color: ;
+   
+  }
+  .container-c{
+    border-style: ;
+    border-color: ;
+    margin-left: 15%;
+	margin-right: 15%;
+  }
+  
+  .contact1-c{
+	border-style: ;
+    border-color: ;
+    
+  }
+  /*
+    <div class="container margin-block-200">
+    <h1 class="fs-900 margin-bottom-500">Contact</h1>
+  
+    <div class="grid-even-columns">
+	*/
+
+/* Base styles for .contact */  /*   Still need to fix hover ease in  */
+.contact-c {
+  border-style: ;
+  border-color: ;
+  width: 150px;
+  height: 150px;
+  padding: 1rem;
+  border: 1px solid #aaa; /* Visible border */
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Grid container for larger screens */
+@media (min-width: 45em) {
+  .grid-even-columns-c {
+    display: grid;
+    grid-template-columns: repeat(3, 150px); /* 3 columns each 150px wide */
+    grid-gap: 5rem; /* Gap between grid items */
+    justify-content: start; /* Align grid to the left */
+	
+  }
+}
+
+/* Grid container for smaller screens */
+@media (max-width: 44.99em) {
+  .grid-even-columns-c, .contact-c {
+    display: grid;
+	
+    grid-template-columns: 1fr; /* Full width for smaller screens */
+    grid-gap: 1rem;
+	border-style: ;
+    border-color: ;
+	width: 100%;
+	
+  }
+
+
+  }
+}
+
+  
+  
+  
+  
+  .stat-block-c {
+      text-align: left; /* Center the content */
+      border-style: solid;
+      border-color: red;
+  }
+  
+  .number-c {
+      font-size: 5em; /* Large number size */
+      line-height: 1; /* Adjust line height to control vertical spacing */
+      vertical-align: top; /* Aligns the number to the top of the line */
+  }
+  
+  .stat-symbol-c {
+      font-size: 1.5em; /* Smaller plus size */
+      vertical-align: top; /* Keeps the plus aligned at the top */
+      position: relative; /* Allows precise positioning */
+      top: 0.2em; /* Lower the plus symbol slightly */
+  }
+  
+  .stat-text .stat-title-c {
+      font-size: 1.5em; /* Size for the 'Projects Worked' text */
+      margin: 0; /* Remove default margin */
+      padding-top: 0.2em; /* Space from the number */
+  }
+  
+  .stat-text-c .stat-description-c {
+      font-size: 1em; /* Size for the description text */
+      margin: 0; /* Remove default margin */
+      padding-top: 0.2em; /* Space from the 'Projects Worked' text */
+  }
+  .divider-c {
+      height: 2px;
+      background-color: black;
+      margin-bottom: 20px; /* Space below the divider line */
+  }
+
+
+
+  .button:hover-c {
+    background-color: #ccc;
+}

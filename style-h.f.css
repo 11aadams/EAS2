@@ -1,0 +1,103 @@
+.site-header {
+    display: flex;
+	display: ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 1px;
+    background-color: ; /* Or any color you prefer */
+    color: ;
+	border-style: ;
+    border-color: ;
+    max-width: ;
+    margin-left: 15%;
+	margin-right: 15%;
+	gap: rem;
+
+
+	place-items: center;
+}
+
+
+
+.logo {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+	border-style: ;
+    border-color: ;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 20px; /* Space between icons */
+	border-style: ;
+    border-color: ;
+}
+
+.social-icon {
+    color: #fff; /* Icon color */
+    font-size: 1.em; /* Icon size */
+    transition: color 0.3s ease; /* Transition for hover effect */
+	border-style: ;
+    border-color: ;
+}
+
+.social-icon:hover {
+color: #aaa; /* Icon hover color */
+}
+	
+	
+	
+	
+
+/* ========================================================================= */
+
+
+
+.site-footer {
+    display: flex;
+	display: ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 1px;
+    background-color: ; /* Or any color you prefer */
+    color: ;
+	border-style: ;
+    border-color: ;
+    max-width: ;
+    margin-left: 15%;
+	margin-right: 15%;
+	gap: rem;
+
+
+	place-items: center;
+}
+
+
+.logo {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 20px; /* Space between icons */
+}
+
+.social-icon {
+    color: #fff; /* Icon color */
+    font-size: 1.em; /* Icon size */
+    transition: color 0.3s ease; /* Transition for hover effect */
+}
+
+.social-icon:hover {
+    color: #aaa; /* Icon hover color */
+}
+
+
+  
+  
+/* The rest of the CSS can remain the same as for the header */
+
+
+/* ========================================================================= */
+

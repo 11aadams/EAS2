@@ -1,0 +1,75 @@
+.grid-even-columns-h {
+	display: grid;
+	gap: rem;
+	border-style: ;
+	border-color: ;
+	margin: %;
+	place-items: center;
+
+
+}
+
+.container-h {
+	border-style: ;
+	border-color: ;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.flow-h {
+	border-style: ;
+	place-items: center;
+	border-color: ;
+	margin: %;
+	width: 100%;
+}
+
+
+.image-h {
+	align-items: center;
+	width: 100%;
+	height: 25rem;
+
+}
+
+
+@media (min-width: 40em) {
+	.grid-even-columns-h {
+		grid-template-columns: repeat(1, 1fr)
+	}
+
+}
+
+
+@media screen and (min-width: 40em) {
+	.hides {
+		display: block;
+		/* or 'grid' if it's a grid item */
+	}
+}
+
+
+.hides {
+	display: none;
+}
+
+
+@media (min-width: 60em) {
+	.grid-even-columns-h {
+		grid-template-columns: 2fr 1fr
+	}
+}
+
+
+.grid-row-span-2-h {
+	grid-row: 1 / span 2;
+}
+
+
+.full-h {
+	width: 100%;
+	grid-column: 1 / span 2;
+	margin: 5%;
+	place-items: center;
+
+}

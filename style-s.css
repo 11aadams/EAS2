@@ -1,0 +1,254 @@
+.grid-even-columns-s {
+    display: grid;
+    gap: 2rem;
+    border-style: ;
+    border-color: ;
+    margin: %;
+    /* Define the grid-template-columns for smaller screens */
+    grid-template-columns: repeat(1, 1fr); 
+  }
+  .container-s {
+    border-style: ;
+    border-color: ;
+    margin-left: 15%;
+	margin-right: 15%;
+  }
+
+  .flow-s {
+    border-style: ;
+    place-items: center;
+    border-color: ;
+    margin: %;
+	padding: 1rem;
+  }
+
+
+.image-s {
+    align-items: center;
+}
+
+
+  
+  @media (min-width: 40em) {
+    .grid-even-columns-s {
+      grid-template-columns: 1fr;
+	 border-style: ;
+    border-color: ;
+    }
+    
+  }
+  
+    @media (min-width: 40em) {
+    .grid-span-s {
+		grid-column-start: 1;
+		grid-column-end: 1;
+		grid-row-start: 3;
+		grid-row-end: 3;
+	 border-style: ;
+    border-color: ;
+    }
+    
+  }
+  
+      @media (min-width: 30em) {
+    .grid-span-s {
+		grid-column-start: 1;
+		grid-column-end: 1;
+		grid-row-start: 3;
+		grid-row-end: 3;
+	 border-style: ;
+    border-color: ;
+    }
+    
+  }
+  
+      @media (min-width: 60em) {
+    .grid-span-s {
+		grid-column-start: 2;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	 border-style: ;
+    border-color: ;
+    }
+    
+  }
+  
+  /*
+      @media (min-width: 40em) {
+    .grid-span {
+		grid-column-start: 1;
+		grid-column-end: 1;
+		grid-row-start: 3;
+		grid-row-end: 3;
+	 border-style: dashed;
+    border-color: putple;
+    }
+    
+  }
+  */
+  
+@media (min-width: 60em) {
+    .grid-even-columns-s {
+        /* Define 2 columns: The first takes 2 parts, and the second takes 1 part */
+        grid-template-columns: 3fr 2fr;
+        border-style: ;
+        border-color: ;
+    }
+  
+  
+
+  .grid-row-span-2-s {
+    grid-row: 1 / span 2;
+  }
+  
+    .grid-span-s {
+        grid-row: span 2; /* This makes it span 2 rows */
+        border-style: ;
+        border-color: ;
+    }
+}
+
+
+.indented-paragraph-s {
+    text-indent: 30px; /* Adjust the value to control the indentation size */
+}
+
+.indented-large-s {
+    text-indent: 5rem; /* Adjust the value to control the indentation size */
+}
+
+  
+  
+  
+ 
+.about-section-s {
+    color: red;
+    background-color: red;
+    padding: 40px;
+    max-width: 1089px;
+    margin: auto;
+	
+		
+
+}
+
+.section-title-s {
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid red;
+	
+}
+
+.about-container-s {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 180px;
+}
+
+.stats-container-s {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stat-s {
+    display: flex;
+    align-items: center; /* Aligns the number and the text vertically */
+    gap: 10px;
+}
+
+.numberz-s {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.stat-textz-s {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-titlez-s {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.stat-descriptionz-s {
+    margin: 0;
+}
+
+.divider-s {
+    height: 2px;
+    background-color: red;
+    margin-bottom: 20px; /* Space below the divider line */
+}
+
+.about-description-s {
+    grid-column: 2;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.stat-blockz-s {
+    text-align: left; /* Center the content */
+    border-style: solid;
+    border-color: red;
+}
+
+.number-s {
+    font-size: 5em; /* Large number size */
+    line-height: 1; /* Adjust line height to control vertical spacing */
+    vertical-align: top; /* Aligns the number to the top of the line */
+}
+
+.stat-symbol-s {
+    font-size: 1.5em; /* Smaller plus size */
+    vertical-align: top; /* Keeps the plus aligned at the top */
+    position: relative; /* Allows precise positioning */
+    top: 0.2em; /* Lower the plus symbol slightly */
+	
+}
+
+.stat-text-s .stat-title-s {
+    font-size: 1.5em; /* Size for the 'Projects Worked' text */
+    margin: 0; /* Remove default margin */
+    padding-top: 0.2em; /* Space from the number */
+}
+
+.stat-text-s .stat-description-s {
+    font-size: 1em; /* Size for the description text */
+    margin: 0; /* Remove default margin */
+    padding-top: 0.2em; /* Space from the 'Projects Worked' text */
+}
+
+
+.rule-s {
+	width: 60%;        /* Set the width to 60% of its parent */
+    margin-left: 0;    /* Align to the left */
+    margin-right: auto; /* Not strictly necessary, but explicitly sets the right margin */
+    border: 2px solid red; /* Example border styling, adjust as needed */
+}
+
+hr {
+	border: 2px solid red; /* Example border styling, adjust as needed */
+
+}
+
+.space {
+	line-height: 2;
+}
+
+/* ========================================================================= */
+

@@ -1,0 +1,451 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Replace with your chosen font */
+    color: white; /* Replace with your chosen font color */
+    background-color: black; /* Replace with your chosen background color */
+}
+
+
+
+
+h1 {
+font-size: 2em; /* Adjust as needed */
+}
+
+h2 {
+font-size: 1.5em; /* Adjust as needed */
+}
+
+p {
+font-size: 1em; /* Adjust as needed */
+}
+
+
+
+
+.element {
+  background-color: ; /* Using a color name */
+}
+
+
+
+
+.grid-even-columns {
+    display: grid;
+    gap: 1rem;
+
+    margin: 5%;
+    place-items: center;
+    
+   
+  }
+  .custom-container {
+
+    margin: 5%;
+  }
+
+  .flow {
+    
+    place-items: ;
+
+    margin: 15%;
+	display: flex;
+	flex-direction: column;
+	
+	
+	
+  justify-content: center; /* Centers content vertically */
+  align-items: ; /* Centers content horizontally, if needed */
+  height: 100%; /* You might need to adjust the height */
+  
+  }
+
+
+
+
+
+
+.image {
+    align-items: center;
+}
+
+
+  
+  @media (min-width: 40em) {
+    .grid-even-columns {
+      grid-template-columns: repeat(1,1fr);
+	  /* margin: 0%; */
+    }
+    
+  }
+  
+  @media (min-width: 60em) {
+    .grid-even-columns {
+      grid-template-columns: repeat(2,1fr);
+	  
+	  /* margin: 5rem; */
+    }
+  }
+  
+  
+    @media (min-width: 60em) {
+    .flow {
+      grid-template-columns: repeat(2,1fr);
+	  margin: ;
+	  width: auto;
+    }
+  }
+  
+  
+  
+  
+
+  
+  
+
+
+
+.carousel {
+	    
+   
+    margin: 5%;
+	
+}
+
+
+.carousel-container1 {
+	display: grid;
+	
+   ;
+    margin: 5%;
+	place-items: center;
+	gap:1rem;
+	
+	
+	
+	
+}
+
+
+.item-image1 {
+    width: 300px; /* Set a specific width */
+    height: 300px; /* Set a specific height for a square image */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+	 border-radius: 10px; /* Optional: rounded corners */
+}
+
+
+
+
+
+
+
+  @media (min-width: 40em) {
+    .carousel-container1 {
+      grid-template-columns: repeat(1,1fr);
+	  
+	  /* margin: 0%; */
+    }
+    
+  }
+  
+  @media (min-width: 60em) {
+    .carousel-container1 {
+      grid-template-columns: repeat(2,1fr);
+	  /* margin: 5rem; */
+	  
+    }
+  }
+  
+  
+    @media (min-width: 40em) {
+    .flow p {
+      width: 85%;
+	  height: 25px;
+	  
+   ;
+	  /* margin: 0%; */
+    }
+    
+  }
+  
+  @media (min-width: 60em) {
+    .flow p {
+      width: 60%;
+	  
+   
+	  /* margin: 5rem; */
+	  
+    }
+  }
+  
+  .flow p {
+    min-width: 30rem; /* Adjust as needed */
+	
+   
+}
+
+
+    @media (min-width: 40em) {
+    .flow h2 {
+      width: 85%;
+	  
+   ;
+	  /* margin: 0%; */
+    }
+    
+  }
+  
+  @media (min-width: 60em) {
+    .flow h2 {
+      width: 60%;
+	  
+   
+	  /* margin: 5rem; */
+	  
+    }
+  }
+  
+  .flow h2 {
+    min-width: 30rem; /* Adjust as needed */
+	
+   
+}
+
+
+  
+  .flow h2, .flow p {
+    width: 250px; /* Adjust as needed */
+}
+
+
+
+
+
+
+.carousel {
+    min-width: 30rem; /* Adjust as needed */
+	margin-left: 15%;
+	margin-right: 15%;
+	
+   
+}
+
+.slide {
+    min-width: 30rem; /* Adjust as needed */
+	
+   
+}
+
+.pointer-event
+{
+    min-width: 30rem; /* Adjust as needed */
+	
+   
+}
+
+
+
+
+
+
+
+/* ... existing styles ... */
+
+@media screen and (max-width: 991px) {
+    .carousel-container1 {
+        grid-template-columns: repeat(1, 1fr); /* Stack elements in one column */
+		align-items: center; /* Center items when stacked */
+    }
+
+    .carousel-container1 .flow {
+        margin: 10px 0; /* Reduced margin for smaller screens */
+		align-items: center; /* Center items when stacked */
+    }
+
+    .carousel-container1 .flow:first-child {
+        margin-bottom: 5px; /* Reduce bottom margin for the image container */
+    }
+
+    .carousel-container1 .flow:last-child {
+        margin-top: 5px; /* Reduce top margin for the text container */
+    }
+
+    .item-image1 {
+        width: 300px; /* Adjust image width for smaller screens */
+        height: 300px; /* Maintain aspect ratio */
+		align-items: center; /* Center items when stacked */
+    }
+}
+
+/* ... other existing styles ... */
+
+
+
+
+
+
+
+
+
+/* Responsive adjustments for tablets */
+@media screen and (min-width: 600px) and (max-width: 991px) {
+    .carousel-item1 {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center; /* Center items when stacked */
+        width: 80%; /* Adjust width for tablet screens */
+        gap: 10px;
+    }
+
+
+
+    .item-header1, .item-subheader1 {
+        text-align: center; /* Center text for readability */
+    }
+}
+
+/* Responsive adjustments for mobile phones */
+@media screen and (max-width: 599px) {
+    .carousel-item1 {
+        width: 100%; /* Use full width on small screens */
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .item-image1 {
+        width: 120px; /* Smaller image size for mobile */
+        height: 120px; /* Keep the image square */
+    }
+
+    .item-header1 {
+        font-size: 1em; /* Smaller font size for headers */
+    }
+
+    .item-subheader1 {
+        font-size: 0.8em; /* Smaller font size for subheaders */
+    }
+}
+
+
+
+
+
+	.carousel-inner{
+
+	
+   
+    margin: %;
+	}
+
+.carousel-control-prev-icon{
+	
+	border-color: ;
+	max-width: ;
+    margin: ;
+	min-width: ; /* Adjust as needed */
+	
+   
+}
+
+.carousel-control-next-icon{
+	
+	border-color: ;
+	max-width: ;
+    margin: ;
+	min-width: ; /* Adjust as needed */
+	
+   
+}
+
+.carousel-control-prev{
+	
+	border-color: ;
+	max-width: 1089px;
+    margin: ;
+	min-width: ; /* Adjust as needed */
+	
+   
+	width: auto; /* Adjust width */
+    z-index: 10; /* Ensure arrows are above other elements */
+	left: 5px; /* Adjust as needed for the left arrow */
+}
+
+.carousel-control-next{
+	
+	border-color: ;
+	max-width: ;
+    margin: auto;
+	min-width: ; /* Adjust as needed */
+	
+   
+	width: auto; /* Adjust width */
+    z-index: 10; /* Ensure arrows are above other elements */
+	right: 5px; /* Adjust as needed for the left arrow */
+}
+
+.visually-hidden{
+	
+	border-color: ;
+	max-width: ;
+    margin: auto;
+	min-width: 30rem; /* Adjust as needed */
+	
+   
+}
+.carousel-control {
+    width: %;
+	min-width: ; /* Adjust as needed */
+	
+   
+}
+
+.carousel-control.left .glyphicon {
+    left: 0;
+    margin-left: 0;
+	min-width: ; /* Adjust as needed */
+	
+   
+}
+
+.carousel-control.right .glyphicon {
+    right: 0;
+    margin-right: 0;
+	min-width: ; /* Adjust as needed */
+	
+   
+}
+
+
+
+
+
+
+.image-overlay-container {
+    position: relative; /* Needed for absolute positioning of children */
+}
+
+.image-overlay {
+    position: absolute; /* Position over the image */
+    bottom: 0; /* Align to the bottom of the container */
+    left: 0; /* Align to the right of the container */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white; /* Text color */
+    padding: 5px; /* Padding around text */
+    font-size: 1em; /* Adjust text size as needed */
+}
+
+
+
+
+
+
+
+
+
+.highlighted {
+/*    background-color: rgba(0,0,0,.5);
+    padding: 5px; */
+}
+
+
+
+  /* ========================================================================= */
+  
