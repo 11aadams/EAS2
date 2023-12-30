@@ -179,7 +179,7 @@ font-size: 1em; /* Adjust as needed */
   }
   
   .flow p {
-    min-width: 30rem; /* Adjust as needed */
+    min-width: 20rem; /* Adjust as needed */
 	
    
 }
@@ -206,7 +206,7 @@ font-size: 1em; /* Adjust as needed */
   }
   
   .flow h2 {
-    min-width: 30rem; /* Adjust as needed */
+    min-width: 20rem; /* Adjust as needed */
 	
    
 }
@@ -223,7 +223,7 @@ font-size: 1em; /* Adjust as needed */
 
 
 .carousel {
-    min-width: 30rem; /* Adjust as needed */
+    min-width: 20rem; /* Adjust as needed */
 	margin-left: 15%;
 	margin-right: 15%;
 	
@@ -231,14 +231,14 @@ font-size: 1em; /* Adjust as needed */
 }
 
 .slide {
-    min-width: 30rem; /* Adjust as needed */
+    min-width: 20rem; /* Adjust as needed */
 	
    
 }
 
 .pointer-event
 {
-    min-width: 30rem; /* Adjust as needed */
+    min-width: 20rem; /* Adjust as needed */
 	
    
 }
